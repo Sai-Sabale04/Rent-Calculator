@@ -7,5 +7,5 @@ persons = int(input("Enter the number of persons living in flat = "))
 
 Total_bil = electricity_spend * charge_per_unit
 
-Ouput = (food + rent + Total_bil) //  persons
+Ouput = (food + rent + Total_bil + water_bill) //  persons
 print("Each Person will pay = ", Ouput)
